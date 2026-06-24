@@ -10,5 +10,21 @@ def github_activity(username):
     
 events = github_activity('luizguivera')
 
+def format_event(event):
+    repo = event["repo"]["name"]
+    type = event["type"]
+
+    if type == "PushEvent":
+        commits = len(event["payload"]["commits"])
+        return f"Pushed {commits} commits to {repo}"
+
+    if type == "WatchEvent":
+        return f"Starred {repo}"
+
+    if type == "CreateEvent":
+        return f"Created something in {repo}"
+
+    return f"{type} in {repo}"
+
 for event in events:
-    print(f"Event Type: {event['type']}, Repo: {event['repo']['name']}, Created At: {event['created_at']}")
+    print(format_event(event))
