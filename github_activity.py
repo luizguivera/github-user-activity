@@ -26,5 +26,5 @@ def format_event(event):
 
     return f"{type} in {repo}"
 
-for event in events:
-    print(format_event(event))
+for k, v in events[0].items():
+    print(k, "=>", v)
