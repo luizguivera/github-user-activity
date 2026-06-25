@@ -11,13 +11,17 @@ python3 github_activity.py <username>
 
 Example:
 python github_activity.py torvalds
+```
 
-Features
+## Features
 
-Fetches recent GitHub events
-Displays pushes, stars, issues, pull requests, and comments
-Simple CLI interface
-Uses GitHub public API
+- Fetches recent GitHub events
+- Displays pushes, stars, issues, pull requests, and comments
+- Simple CLI interface
+- Uses GitHub public API
 
-API used
+## API used
 (https://api.github.com/users/<username>/events)
+
+## Project
+(https://github.com/luizguivera/github-user-activity)
