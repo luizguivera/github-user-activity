@@ -24,4 +24,4 @@ python github_activity.py torvalds
 (https://api.github.com/users/(username)/events)
 
 ## Project
-(https://github.com/luizguivera/github-user-activity)
+(https://roadmap.sh/projects/github-user-activity)
