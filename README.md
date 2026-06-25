@@ -19,4 +19,4 @@ Simple CLI interface
 Uses GitHub public API
 
 ## API used
-[text](https://api.github.com/users/<username>/events)
+(https://api.github.com/users/<username>/events)
