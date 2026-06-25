@@ -21,7 +21,7 @@ python github_activity.py torvalds
 - Uses GitHub public API
 
 ## API used
-(https://api.github.com/users/<username>/events)
+(https://api.github.com/users/(username)/events)
 
 ## Project
 (https://github.com/luizguivera/github-user-activity)
