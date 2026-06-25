@@ -7,7 +7,6 @@ def get_latest_events(username):
 
     if response.status_code == 200:
         latest_events = response.json()
-        print(latest_events)
 
         for event in latest_events:
                 if event['type'] == 'IssueCommentEvent':
